@@ -6,23 +6,44 @@ const questions = [
     b: "Coding Style Sheets",
     c: "Cascading Simple Sheets",
     d: "Cars SUVs & Sailboats",
+    e: "Code Something Simple",
     correct: "a",
   },
   {
     question: "When was Coding Summer/Spring School founded?",
     a: "2018",
-    b: "2021",
-    c: "2022",
-    d: "2023",
-    correct: "b",
+    b: "2019",
+    c: "2020",
+    d: "2021",
+    e: "2022",
+    correct: "d",
   },
   {
     question: "Which organisation did the Coding Summer/Spring School initially start in?",
     a: "Bosnia and Herzegovina Famous Foundation",
     b: "Bosnia and Herzegovina Futures Foundation",
     c: "Bosnia and Herzegovina Factory Foundation",
-    d: "none of the above",
+    d: "Bosnia and Herzegovina Faculty Foundation",
+    e: "none of the above",
     correct: "b",
+  },
+  {
+    question: "In which city CSS workshops are held?",
+    a: "Zenica",
+    b: "Sarajevo",
+    c: "Tuzla",
+    d: "Mostar",
+    e: "Konjic",
+    correct: "a",
+  },
+  {
+    question: "In which school CSS workshops are held?",
+    a: "Prva gimnazija",
+    b: "Ekonomska škola",
+    c: "Tehnička škola",
+    d: "Srednja mješovita škola Mladost",
+    e: "Druga gimnazija",
+    correct: "e",
   },
 ];
 
@@ -63,6 +84,7 @@ const loadQuiz = () => {
   b_text.innerText = currentQuizData.b;
   c_text.innerText = currentQuizData.c;
   d_text.innerText = currentQuizData.d;
+  e_text.innerText = currentQuizData.e;
 };
 
 //Loading the quiz
